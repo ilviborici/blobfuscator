@@ -1,0 +1,12 @@
+[SETTINGS]
+
+recursion = 5
+
+
+base = 500
+
+
+indent = 3
+
+
+bytes_allowed = True
