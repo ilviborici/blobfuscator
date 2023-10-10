@@ -1,14 +1,13 @@
-# Blobfuscator
-Python code obfuscation
+# Pyfuscator
+Protect python code through obfuscation 
 
 
 # Settings ⚙
 
- - recursion: How many times to encrypt, keep this below 100 at most, because it will start taking a long amount of time to run
+ - recursion: How many times to encrypt, keep this below 100 to avoid long runtimes. -
  
- - base: what Base system to use during encryption, must be a whole number, can go all the way up to infinity, unless you disable `bytes_allowed`. 
-    ⚠ The higher the base the longer it'll take to run, generally keep it below 1024
+ - base: What Base system to use during encryption, must be a whole number, can go all the way up to infinity unless you disable `bytes_allowed`. -
 
- - indent: hides code by using indents to space out the code so its harder to see inside an IDE.
+ - indent: Hides code by using indents to space it out so its harder to see inside an IDE. -
  
- - bytes_allowed: Wether or not the program is allowed to use byte characters
+ - bytes_allowed: Wether or not the program is allowed to use byte characters. -
